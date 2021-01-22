@@ -15,6 +15,7 @@ public class ScannerGetData {
         Scanner scan = new Scanner(System.in);
         System.out.println("请输入成绩：");
         int     achievement = scan.nextInt();
+        scan.close();
         if(achievement == 100){
             System.out.println("奖励一个宝马");
         }else if(achievement >= 80){

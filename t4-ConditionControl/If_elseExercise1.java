@@ -5,6 +5,7 @@ public class If_elseExercise1 {
         int     achievement = 0;
         System.out.println("请输入成绩：");
         achievement = scan.nextInt();
+        scan.close();
         if(achievement == 100){
             System.out.println("奖励一个宝马");
         }else if(achievement >= 80){

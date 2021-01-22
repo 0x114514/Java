@@ -13,6 +13,7 @@ public class If_elseExercise2 {
         num2 = scan.nextInt();
         System.out.println("请输入num3：");
         num3 = scan.nextInt();
+        scan.close();
         if((num1 == num2) && (num2 == num3)){
             System.out.println("num1、num2、num3一样大");
         }else if(num1 == num2){

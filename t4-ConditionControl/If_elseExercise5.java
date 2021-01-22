@@ -10,6 +10,7 @@ public class If_elseExercise5 {
         double calculationData2 = 4.0;
         System.out.print("Please input the age of your dog:");
         int ageOfDog = scan.nextInt();
+        scan.close();
         if(ageOfDog < 0 ){
             System.out.println("您输入的数据有误");
         }else if(ageOfDog <= 2 ){
