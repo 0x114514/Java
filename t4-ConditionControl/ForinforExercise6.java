@@ -2,16 +2,16 @@
     输出100以内所有质数
 
 */
-public class ForinforExercise3 {
+public class ForinforExercise6 {
     public static void main(String[] args){
         int primeCount = 0;
         long    startTime = System.currentTimeMillis();//获取1970-01-01 00：00据当前的ms数
         for (int i = 1; i < 100000; i++){
             Boolean     prime = true;
+            //outLable:for (int j = 1; j <= i; j++){
             outLable:for (int j = 1; j <= i; j++){
-            //outLable:for (int j = 1; j <= Math.sqrt(i); j++){
-                for (int k = 1; k <= j; k++){
-                    if ( (j * k) == i && (j != i)){
+                for (int k = 1; k <= Math.sqrt(i) ; k++){
+                    if ( (j * k) == i && (j != i) ){
                         prime = false;
                         break outLable;
                     }
