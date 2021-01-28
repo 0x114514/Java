@@ -27,6 +27,11 @@ public class ArrayExercise01 {
 		int[]	ids;//声明
 		//1.1 静态初始化:数组的初始化和元素的赋值操作要同时进行
 		ids	= new int[] {1001,1002,1003,1004};
+		
+		
+		int[] arr6 = new int[] {1,2,3,4};
+		int[] arr7 = {1,2,3,4};//类型推断
+		
 		//1.2 动态初始化：数组的初始化和元素的赋值操作要分开进行
 		String[] names = new String[4];
 		
